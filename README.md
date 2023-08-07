@@ -20,18 +20,20 @@ hk2s
 - 繁体（香港）-> 简体
 s2twp 
 - Simplified Chinese to Traditional Chinese (Taiwan Standard) with Taiwanese idiom
-- 
+- 简体 -> 繁体（标准台湾，带台湾俗语）
 tw2sp 
 - Traditional Chinese (Taiwan Standard) to Simplified Chinese with Mainland Chinese idiom
-- 
+- 繁体（台湾）-> 简体（带大陆俗语）
 t2tw 
 - Traditional Chinese (OpenCC Standard) to Taiwan Standard
-- 
+- 繁体（OpenCC 标准）-> 繁体（台湾标准）
 t2hk 
 - Traditional Chinese (OpenCC Standard) to Hong Kong Standard
+- 繁体（OpenCC 标准）-> 繁体（香港标准）
 
 ## 命令行用法
 gocc  --input ..\input.txt --config t2s --output ../output.txt
+
 echo "我们是工农子弟兵" | gocc
 
 ## api调用
